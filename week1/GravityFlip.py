@@ -1,0 +1,5 @@
+n = input()
+lis = input().split()
+lis = list(map(int, lis))
+lis.sort()
+print(*lis)
